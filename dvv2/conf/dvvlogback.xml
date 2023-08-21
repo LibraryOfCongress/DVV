@@ -1,0 +1,39 @@
+<configuration>
+    <timestamp key="bySecond" datePattern="yyyy-MM-dd-HHmm"/>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+      <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+        <pattern>%d{HH:mm:ss.SSS} - %msg%n</pattern>
+      </encoder>
+      <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+        <level>INFO</level>
+      </filter>
+    </appender>
+  
+    <appender name="FILEOUT" class="ch.qos.logback.core.FileAppender">
+      <append>false</append>
+      <file>${app.home}/logs/dvv-${bySecond}.log</file>
+      <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+        <pattern>%date %level [%thread] %logger{10} [%file:%line] %msg%n</pattern>
+      </encoder>
+      <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+        <level>INFO</level>
+      </filter>
+    </appender>
+  
+    <appender name="DEBUGOUT" class="ch.qos.logback.core.FileAppender">
+      <append>false</append>
+      <file>${app.home:-${user.home}}/logs/debug.log</file>
+      <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+        <pattern>%date %level [%thread] %logger{10} [%file:%line] %msg%n</pattern>
+      </encoder>
+      <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+        <level>DEBUG</level>
+      </filter>
+    </appender>
+  
+    <root level="DEBUG">
+      <appender-ref ref="STDOUT"/>
+      <appender-ref ref="FILEOUT"/>
+      <appender-ref ref="DEBUGOUT"/>
+    </root>
+  </configuration>

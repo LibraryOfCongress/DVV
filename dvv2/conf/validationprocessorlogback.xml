@@ -1,0 +1,25 @@
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+      <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+        <pattern>%d{HH:mm:ss.SSS} - %msg%n</pattern>
+      </encoder>
+    </appender>
+
+    <timestamp key="bySecond" datePattern="yyyy-MM-dd-HHmm" />
+
+    <appender name="FILEOUT" class="ch.qos.logback.core.FileAppender">
+      <append>false</append>
+      <file>${app.home}/logs/validation-processor-${bySecond}.log</file>
+      <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+        <pattern>%date %level [%thread] %logger{10} [%file:%line] %msg%n</pattern>
+      </encoder>
+    </appender>
+
+    <root level="WARN">
+      <appender-ref ref="STDOUT" />
+      <appender-ref ref="FILEOUT" />
+    </root>
+
+    <logger name="gov.loc.repository" level="INFO" />
+    <logger name="gov.loc.ndnp" level="INFO" />
+  </configuration>
