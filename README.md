@@ -7,7 +7,7 @@ NDNP is a partnership between the National Endowment for the Humanities (NEH) an
 
 ## DVV Current Version 
 
-DVV Version 2.3.0 was released to NDNP awardees on May 25, 2023
+DVV Version 2.3.0 was released internally to NDNP awardees on May 25, 2023 and publicly via Github on August 22, 2023. See [releases](https://github.com/LibraryOfCongress/DVV/releases) for more info.
 
 ## Using the DVV
 
