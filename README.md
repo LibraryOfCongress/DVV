@@ -9,7 +9,7 @@ NDNP is a partnership between the National Endowment for the Humanities (NEH) an
 
 DVV Version 2.3.0 was released internally to NDNP awardees on May 25, 2023 and publicly via Github on August 22, 2023. See [releases](https://github.com/LibraryOfCongress/DVV/releases) for more info.
 
-Note: DVV Generation 2 (DVV2) Github releases will only include binaries or compiled code necessary for the DVV to be installed by users.  While the source code of DVV2 is not currently available in Github, Generation 3 of the DVV is expected to be released as open source (with source code and binaries.)  Development on Generation 3 of the DVV is slated to begin in late 2023. Stay tuned for more updates.
+Note: DVV Generation 2 (DVV2) Github releases will only include binaries or compiled code necessary for the DVV to be installed by users.  While the source code of DVV2 is not currently available in Github, Generation 3 of the DVV is expected to be released as open source (with source code and binaries).  Development on Generation 3 of the DVV is slated to begin in late 2023. Stay tuned for more updates.
 
 ## Using the DVV
 
