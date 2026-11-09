@@ -5,11 +5,11 @@ The Digital Viewer and Validator (DVV) is a tool developed at the Library of Con
 NDNP is a partnership between the National Endowment for the Humanities (NEH) and the Library of Congress (LC) to create a national digital resource [(Chronicling America)](https://chroniclingamerica.loc.gov/) of historically significant newspapers published between 1690 and 1963, from all the states and U.S. jurisdictions. Institutions wishing to participate in the NDNP should consult the [NEH Application Guidelines](https://www.neh.gov/grants/preservation/national-digital-newspaper-program) for information regarding the NEH’s annual solicitation of proposals for participation in the program.
  
 
-## DVV Current Version 
+## DVV Releases 
 
-DVV Version 2.3.1 was released via Github on February 13, 2026. See [releases](https://github.com/LibraryOfCongress/DVV/releases) for more info.
+See [releases](https://github.com/LibraryOfCongress/DVV/releases) for more info.
 
-Note: DVV releases on Github will only include binaries or compiled code necessary for the DVV to be installed by users. DVV Generation 3 is expected to be released in 2026. Stay tuned for more updates.
+Note: DVV releases on Github will only include binaries or compiled code necessary for the DVV to be installed by users.
 
 ## Using the DVV
 
