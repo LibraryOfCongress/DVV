@@ -13,9 +13,9 @@ Note: DVV releases on Github will only include binaries or compiled code necessa
 
 ## Using the DVV
 
-[Download the DVV User Guide](https://www.loc.gov/ndnp/tools/DVV2UserGuide_04_07_2023.pdf) (PDF, 1.7 KB) for detailed system requirements, installation instructions, and tips for using and troubleshooting DVV Version 2.3.0.
+[Consult the Digital Viewer and Validator (DVV) Reference Materials](https://github.com/LibraryOfCongress/DVV/wiki) for detailed system requirements, installation instructions, user guides, and more.
 
 ## Contact
-Detailed instructions for using the DVV can be found in the DVV User Guide. For questions or support, contact LC NDNP staff (ndnptech@loc.gov).
+For questions or support, contact LC NDNP staff (ndnptech@loc.gov).
 
 
